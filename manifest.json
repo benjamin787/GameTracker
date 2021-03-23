@@ -1,0 +1,13 @@
+{
+  "name": "NBA Border",
+  "description": "Add a panel for stats to the side of a full-screen stream",
+  "version": "1.0",
+  "manifest_version": "3",
+  "default_locale": "en",
+  "icons": {
+    "16": "ball-16.png",
+    "32": "ball-32.png",
+    "48": "ball-48.png",
+    "72": "ball-72.png"
+  }
+}
