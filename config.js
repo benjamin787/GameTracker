@@ -1,5 +1,7 @@
-import date from './date.js'
+import date from "./date.js"
 
-const baseURL = `http://data.nba.net/10s/prod/v1/${date()}/scoreboard.json`
+const parseJSON = data => data.json()
 
-export { baseURL }
+const baseURL = `http://data.nba.net/10s/prod/v1/${date().url}/scoreboard.json`
+
+export { baseURL, parseJSON }
