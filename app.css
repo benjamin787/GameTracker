@@ -1,0 +1,10 @@
+ul {
+  height: auto;
+  width: 30px;
+}
+
+li {
+  height: 15px;
+  border: line;
+  margin: 2px;
+}

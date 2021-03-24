@@ -1,13 +1,24 @@
 {
-  "name": "NBA Border",
-  "description": "Add a panel for stats to the side of a full-screen stream",
+  "name": "GameTracker",
+  "description": "Pop-up for real-time scores",
   "version": "1.0",
-  "manifest_version": "3",
-  "default_locale": "en",
+  "manifest_version": 3,
+  "author": "Ben Rowe",
+  "action": {
+    "default_icon": {
+      "16": "assets/ball-16.png",
+      "32": "assets/ball-32.png",
+      "48": "assets/ball-48.png",
+      "72": "assets/ball-72.png"
+    },
+    "default_title": "Check scores",
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
   "icons": {
-    "16": "ball-16.png",
-    "32": "ball-32.png",
-    "48": "ball-48.png",
-    "72": "ball-72.png"
+    "16": "assets/ball-16.png",
+    "32": "assets/ball-32.png",
+    "48": "assets/ball-48.png",
+    "72": "assets/ball-72.png"
   }
 }
