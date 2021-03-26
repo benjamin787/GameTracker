@@ -12,9 +12,8 @@
       "72": "assets/ball-72.png"
     },
     "default_title": "Check scores",
-    "default_popup": "popup.html"
+    "default_popup": "./popup.html"
   },
-  "permissions": [],
   "icons": {
     "16": "assets/ball-16.png",
     "32": "assets/ball-32.png",

@@ -18,10 +18,8 @@ const displayScores = data => {
 const getScores = () => {
   setDate()
   fetch(baseURL)
-    .then(parseJSON)
-    .then(displayScores)
+  .then(parseJSON)
+  .then(displayScores)
 }
 
-let getButton = document.getElementById("getButton")
-
-getButton.addEventListener("click", getScores)
+document.addEventListener("DOMContentLoaded", event => getScores())
