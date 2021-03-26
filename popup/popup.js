@@ -1,6 +1,6 @@
-import { baseURL, parseJSON } from './config.js'
-import formatCard from './card.js'
-import date from './date.js'
+import { baseURL, parseJSON } from '../tools/config.js'
+import formatCard from '../tools/card.js'
+import date from '../tools/date.js'
 
 const scoreList = document.getElementById("score-list")
 const dateTitle = document.getElementById("date-title")
