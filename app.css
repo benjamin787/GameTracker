@@ -1,0 +1,46 @@
+#popup {
+  width: 206px;
+  text-align: left;
+  overflow-y: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: hsl(0, 0%, 92%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 36px;
+  border: 2px solid blue;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+td {
+  padding: 8px;
+}
+
+.time-box {
+  margin: auto;
+}
+
+.home-name {
+  text-align: right;
+}
+
+.home-score {
+  text-align: left;
+}
+
+.visitor-score {
+  text-align: right;
+}
+
+.visitor-name {
+  text-align: left;
+}
