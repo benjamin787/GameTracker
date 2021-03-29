@@ -13,7 +13,7 @@ This Chrome extension only works on Google Chrome internet browser.
     In the top-right of your browser, click the Options menu
       => More Tools => Extensions
 
-<img src='directions.png' alt='Directions' width='363' />
+<img src="./assets/directions.png" alt="Directions" width="363" />
 
 - Turn on Developer Mode (top-right of extensions page). This will give you access to new commands.
 - Click 'Load unpacked' and select top level of this repo.
