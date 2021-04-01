@@ -14,7 +14,7 @@
     "default_title": "Check scores",
     "default_popup": "popup/popup.html"
   },
-  "icon": {
+  "icons": {
     "16": "assets/ball-16.png",
     "32": "assets/ball-32.png",
     "48": "assets/ball-48.png",
